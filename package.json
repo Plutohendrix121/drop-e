@@ -2,7 +2,6 @@
   "name": "eth-drop-d",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "npx tailwindcss -i ./_next/static/css/input.css -o ./_next/static/css/output.css --watch",
