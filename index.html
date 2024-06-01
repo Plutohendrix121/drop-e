@@ -1,0 +1,1732 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <style
+            data-rc-order="prependQueue"
+            data-rc-priority="-999"
+            data-css-hash="1o2tiow"
+            data-token-hash="nr6jhy"
+        >
+            :where(.css-sizsvg) a {
+                color: #1677ff;
+                text-decoration: none;
+                background-color: transparent;
+                outline: none;
+                cursor: pointer;
+                transition: color 0.3s;
+                -webkit-text-decoration-skip: objects;
+            }
+            :where(.css-sizsvg) a:hover {
+                color: #69b1ff;
+            }
+            :where(.css-sizsvg) a:active {
+                color: #0958d9;
+            }
+            :where(.css-sizsvg) a:active,
+            :where(.css-sizsvg) a:hover {
+                text-decoration: none;
+                outline: 0;
+            }
+            :where(.css-sizsvg) a:focus {
+                text-decoration: none;
+                outline: 0;
+            }
+            :where(.css-sizsvg) a[disabled] {
+                color: rgba(0, 0, 0, 0.25);
+                cursor: not-allowed;
+            }
+        </style>
+        <style
+            data-rc-order="prependQueue"
+            data-rc-priority="-999"
+            data-css-hash="qsvqq1"
+            data-token-hash="nr6jhy"
+        >
+            :where(.css-sizsvg)[class^="ant-modal"],
+            :where(.css-sizsvg)[class*=" ant-modal"] {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                    Roboto, "Helvetica Neue", Arial, "Noto Sans",
+                    sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+                    "Segoe UI Symbol", "Noto Color Emoji";
+                font-size: 14px;
+                box-sizing: border-box;
+            }
+            :where(.css-sizsvg)[class^="ant-modal"]::before,
+            :where(.css-sizsvg)[class*=" ant-modal"]::before,
+            :where(.css-sizsvg)[class^="ant-modal"]::after,
+            :where(.css-sizsvg)[class*=" ant-modal"]::after {
+                box-sizing: border-box;
+            }
+            :where(.css-sizsvg)[class^="ant-modal"] [class^="ant-modal"],
+            :where(.css-sizsvg)[class*=" ant-modal"] [class^="ant-modal"],
+            :where(.css-sizsvg)[class^="ant-modal"] [class*=" ant-modal"],
+            :where(.css-sizsvg)[class*=" ant-modal"]
+                [class*=" ant-modal"] {
+                box-sizing: border-box;
+            }
+            :where(.css-sizsvg)[class^="ant-modal"]
+                [class^="ant-modal"]::before,
+            :where(.css-sizsvg)[class*=" ant-modal"]
+                [class^="ant-modal"]::before,
+            :where(.css-sizsvg)[class^="ant-modal"]
+                [class*=" ant-modal"]::before,
+            :where(.css-sizsvg)[class*=" ant-modal"]
+                [class*=" ant-modal"]::before,
+            :where(.css-sizsvg)[class^="ant-modal"]
+                [class^="ant-modal"]::after,
+            :where(.css-sizsvg)[class*=" ant-modal"]
+                [class^="ant-modal"]::after,
+            :where(.css-sizsvg)[class^="ant-modal"]
+                [class*=" ant-modal"]::after,
+            :where(.css-sizsvg)[class*=" ant-modal"]
+                [class*=" ant-modal"]::after {
+                box-sizing: border-box;
+            }
+            :where(.css-sizsvg).ant-modal-root .ant-modal-wrap-rtl {
+                direction: rtl;
+            }
+            :where(.css-sizsvg).ant-modal-root .ant-modal-centered {
+                text-align: center;
+            }
+            :where(.css-sizsvg).ant-modal-root
+                .ant-modal-centered::before {
+                display: inline-block;
+                width: 0;
+                height: 100%;
+                vertical-align: middle;
+                content: "";
+            }
+            :where(.css-sizsvg).ant-modal-root
+                .ant-modal-centered
+                .ant-modal {
+                top: 0;
+                display: inline-block;
+                padding-bottom: 0;
+                text-align: start;
+                vertical-align: middle;
+            }
+            @media (max-width: 767) {
+                :where(.css-sizsvg).ant-modal-root .ant-modal {
+                    max-width: calc(100vw - 16px);
+                    margin: 8 auto;
+                }
+                :where(.css-sizsvg).ant-modal-root
+                    .ant-modal-centered
+                    .ant-modal {
+                    flex: 1;
+                }
+            }
+            :where(.css-sizsvg).ant-modal {
+                box-sizing: border-box;
+                margin: 0 auto;
+                padding: 0;
+                color: rgba(0, 0, 0, 0.88);
+                font-size: 14px;
+                line-height: 1.5714285714285714;
+                list-style: none;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                    Roboto, "Helvetica Neue", Arial, "Noto Sans",
+                    sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+                    "Segoe UI Symbol", "Noto Color Emoji";
+                pointer-events: none;
+                position: relative;
+                top: 100px;
+                width: auto;
+                max-width: calc(100vw - 32px);
+                padding-bottom: 24px;
+            }
+            :where(.css-sizsvg).ant-modal .ant-modal-title {
+                margin: 0;
+                color: rgba(0, 0, 0, 0.88);
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 1.5;
+                word-wrap: break-word;
+            }
+            :where(.css-sizsvg).ant-modal .ant-modal-content {
+                position: relative;
+                background-color: #ffffff;
+                background-clip: padding-box;
+                border: 0;
+                border-radius: 8px;
+                box-shadow:
+                    0 6px 16px 0 rgba(0, 0, 0, 0.08),
+                    0 3px 6px -4px rgba(0, 0, 0, 0.12),
+                    0 9px 28px 8px rgba(0, 0, 0, 0.05);
+                pointer-events: auto;
+                padding: 20px 24px;
+            }
+            :where(.css-sizsvg).ant-modal .ant-modal-close {
+                position: absolute;
+                top: 17px;
+                inset-inline-end: 17px;
+                z-index: 1010;
+                padding: 0;
+                color: rgba(0, 0, 0, 0.45);
+                font-weight: 600;
+                line-height: 1;
+                text-decoration: none;
+                background: transparent;
+                border-radius: 4px;
+                width: 22px;
+                height: 22px;
+                border: 0;
+                outline: 0;
+                cursor: pointer;
+                transition:
+                    color 0.2s,
+                    background-color 0.2s;
+            }
+            :where(.css-sizsvg).ant-modal .ant-modal-close-x {
+                display: flex;
+                font-size: 16px;
+                font-style: normal;
+                line-height: 22px;
+                justify-content: center;
+                text-transform: none;
+                text-rendering: auto;
+            }
+            :where(.css-sizsvg).ant-modal .ant-modal-close:hover {
+                color: rgba(0, 0, 0, 0.88);
+                background-color: rgba(0, 0, 0, 0.06);
+                text-decoration: none;
+            }
+            :where(.css-sizsvg).ant-modal .ant-modal-close:active {
+                background-color: rgba(0, 0, 0, 0.15);
+            }
+            :where(.css-sizsvg).ant-modal .ant-modal-close:focus-visible {
+                outline: 4px solid #91caff;
+                outline-offset: 1px;
+                transition:
+                    outline-offset 0s,
+                    outline 0s;
+            }
+            :where(.css-sizsvg).ant-modal .ant-modal-header {
+                color: rgba(0, 0, 0, 0.88);
+                background: #ffffff;
+                border-radius: 8px 8px 0 0;
+                margin-bottom: 8px;
+            }
+            :where(.css-sizsvg).ant-modal .ant-modal-body {
+                font-size: 14px;
+                line-height: 1.5714285714285714;
+                word-wrap: break-word;
+            }
+            :where(.css-sizsvg).ant-modal .ant-modal-footer {
+                text-align: end;
+                background: transparent;
+                margin-top: 12px;
+            }
+            :where(.css-sizsvg).ant-modal
+                .ant-modal-footer
+                .ant-btn
+                + .ant-btn:not(.ant-dropdown-trigger) {
+                margin-bottom: 0;
+                margin-inline-start: 8px;
+            }
+            :where(.css-sizsvg).ant-modal .ant-modal-open {
+                overflow: hidden;
+            }
+            :where(.css-sizsvg).ant-modal-pure-panel {
+                top: auto;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+            }
+            :where(.css-sizsvg).ant-modal-pure-panel .ant-modal-content,
+            :where(.css-sizsvg).ant-modal-pure-panel .ant-modal-body,
+            :where(.css-sizsvg).ant-modal-pure-panel
+                .ant-modal-confirm-body-wrapper {
+                display: flex;
+                flex-direction: column;
+                flex: auto;
+            }
+            :where(.css-sizsvg).ant-modal-pure-panel
+                .ant-modal-confirm-body {
+                margin-bottom: auto;
+            }
+            :where(.css-sizsvg).ant-modal-root .ant-modal-wrap-rtl {
+                direction: rtl;
+            }
+            :where(.css-sizsvg).ant-modal-root
+                .ant-modal-wrap-rtl
+                .ant-modal-confirm-body {
+                direction: rtl;
+            }
+            :where(.css-sizsvg).ant-modal-root .ant-modal.ant-zoom-enter,
+            :where(.css-sizsvg).ant-modal-root .ant-modal.ant-zoom-appear {
+                transform: none;
+                opacity: 0;
+                animation-duration: 0.3s;
+                user-select: none;
+            }
+            :where(.css-sizsvg).ant-modal-root
+                .ant-modal.ant-zoom-leave
+                .ant-modal-content {
+                pointer-events: none;
+            }
+            :where(.css-sizsvg).ant-modal-root .ant-modal-mask {
+                position: fixed;
+                inset: 0;
+                z-index: 1000;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.45);
+                pointer-events: none;
+            }
+            :where(.css-sizsvg).ant-modal-root
+                .ant-modal-mask
+                .ant-modal-hidden {
+                display: none;
+            }
+            :where(.css-sizsvg).ant-modal-root .ant-modal-wrap {
+                position: fixed;
+                inset: 0;
+                z-index: 1000;
+                overflow: auto;
+                outline: 0;
+                -webkit-overflow-scrolling: touch;
+            }
+            :where(.css-sizsvg).ant-modal-root
+                .ant-modal-wrap:has(.ant-modal.ant-zoom-enter),
+            :where(.css-sizsvg).ant-modal-root
+                .ant-modal-wrap:has(.ant-modal.ant-zoom-appear) {
+                pointer-events: none;
+            }
+            :where(.css-sizsvg).ant-modal-root .ant-fade-enter,
+            :where(.css-sizsvg).ant-modal-root .ant-fade-appear {
+                animation-duration: 0.2s;
+                animation-fill-mode: both;
+                animation-play-state: paused;
+            }
+            :where(.css-sizsvg).ant-modal-root .ant-fade-leave {
+                animation-duration: 0.2s;
+                animation-fill-mode: both;
+                animation-play-state: paused;
+            }
+            :where(.css-sizsvg).ant-modal-root
+                .ant-fade-enter.ant-fade-enter-active,
+            :where(.css-sizsvg).ant-modal-root
+                .ant-fade-appear.ant-fade-appear-active {
+                animation-name: css-sizsvg-antFadeIn;
+                animation-play-state: running;
+            }
+            :where(.css-sizsvg).ant-modal-root
+                .ant-fade-leave.ant-fade-leave-active {
+                animation-name: css-sizsvg-antFadeOut;
+                animation-play-state: running;
+                pointer-events: none;
+            }
+            :where(.css-sizsvg).ant-modal-root .ant-fade-enter,
+            :where(.css-sizsvg).ant-modal-root .ant-fade-appear {
+                opacity: 0;
+                animation-timing-function: linear;
+            }
+            :where(.css-sizsvg).ant-modal-root .ant-fade-leave {
+                animation-timing-function: linear;
+            }
+            :where(.css-sizsvg).ant-zoom-enter,
+            :where(.css-sizsvg).ant-zoom-appear {
+                animation-duration: 0.2s;
+                animation-fill-mode: both;
+                animation-play-state: paused;
+            }
+            :where(.css-sizsvg).ant-zoom-leave {
+                animation-duration: 0.2s;
+                animation-fill-mode: both;
+                animation-play-state: paused;
+            }
+            :where(.css-sizsvg).ant-zoom-enter.ant-zoom-enter-active,
+            :where(.css-sizsvg).ant-zoom-appear.ant-zoom-appear-active {
+                animation-name: css-sizsvg-antZoomIn;
+                animation-play-state: running;
+            }
+            :where(.css-sizsvg).ant-zoom-leave.ant-zoom-leave-active {
+                animation-name: css-sizsvg-antZoomOut;
+                animation-play-state: running;
+                pointer-events: none;
+            }
+            :where(.css-sizsvg).ant-zoom-enter,
+            :where(.css-sizsvg).ant-zoom-appear {
+                transform: scale(0);
+                opacity: 0;
+                animation-timing-function: cubic-bezier(
+                    0.08,
+                    0.82,
+                    0.17,
+                    1
+                );
+            }
+            :where(.css-sizsvg).ant-zoom-enter-prepare,
+            :where(.css-sizsvg).ant-zoom-appear-prepare {
+                transform: none;
+            }
+            :where(.css-sizsvg).ant-zoom-leave {
+                animation-timing-function: cubic-bezier(
+                    0.78,
+                    0.14,
+                    0.15,
+                    0.86
+                );
+            }
+        </style>
+        <style
+            data-rc-order="prependQueue"
+            data-rc-priority="-999"
+            data-css-hash="_effect-css-sizsvg-antFadeIn"
+        >
+            @keyframes css-sizsvg-antFadeIn {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+        </style>
+        <style
+            data-rc-order="prependQueue"
+            data-rc-priority="-999"
+            data-css-hash="_effect-css-sizsvg-antFadeOut"
+        >
+            @keyframes css-sizsvg-antFadeOut {
+                0% {
+                    opacity: 1;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }
+        </style>
+        <style
+            data-rc-order="prependQueue"
+            data-rc-priority="-999"
+            data-css-hash="_effect-css-sizsvg-antZoomIn"
+        >
+            @keyframes css-sizsvg-antZoomIn {
+                0% {
+                    transform: scale(0.2);
+                    opacity: 0;
+                }
+                100% {
+                    transform: scale(1);
+                    opacity: 1;
+                }
+            }
+        </style>
+        <style
+            data-rc-order="prependQueue"
+            data-rc-priority="-999"
+            data-css-hash="_effect-css-sizsvg-antZoomOut"
+        >
+            @keyframes css-sizsvg-antZoomOut {
+                0% {
+                    transform: scale(1);
+                }
+                100% {
+                    transform: scale(0.2);
+                    opacity: 0;
+                }
+            }
+        </style>
+        <style
+            data-rc-order="prependQueue"
+            data-css-hash="126bzhm"
+            data-token-hash="nr6jhy"
+        >
+            .anticon {
+                display: inline-flex;
+                align-items: center;
+                color: inherit;
+                font-style: normal;
+                line-height: 0;
+                text-align: center;
+                text-transform: none;
+                vertical-align: -0.125em;
+                text-rendering: optimizeLegibility;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            .anticon > * {
+                line-height: 1;
+            }
+            .anticon svg {
+                display: inline-block;
+            }
+            .anticon .anticon .anticon-icon {
+                display: block;
+            }
+        </style>
+        <style
+            data-rc-order="prependQueue"
+            data-css-hash="jebofo"
+            data-token-hash="1oopk4d"
+        >
+            .anticon {
+                display: inline-flex;
+                align-items: center;
+                color: inherit;
+                font-style: normal;
+                line-height: 0;
+                text-align: center;
+                text-transform: none;
+                vertical-align: -0.125em;
+                text-rendering: optimizeLegibility;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            .anticon > * {
+                line-height: 1;
+            }
+            .anticon svg {
+                display: inline-block;
+            }
+            .anticon .anticon .anticon-icon {
+                display: block;
+            }
+        </style>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width,minimum-scale=1,maximum-scale=1.0,initial-scale=1,user-scalable=no,viewport-fit=true"
+        />
+        <title>Manta Airdrop</title>
+        <link rel="icon" href="/favicon.ico" />
+        <!-- <script
+            src="https://cdn.usefathom.com/script.js"
+            data-site="GUCNMPYP"
+            defer=""
+        ></script> -->
+        <meta name="next-head-count" content="5" />
+        <!-- <link data-next-font="" rel="preconnect" href="/" crossorigin="anonymous" /> -->
+        <link
+            rel="stylesheet"
+            href="_next/static/css/687de25da257aff8.css"
+        />
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+            :root {
+                --w3m-color-mix-strength: 0%;
+                --w3m-font-family: Inter, Segoe UI, Roboto, Oxygen, Ubuntu,
+                    Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+                    sans-serif;
+                --w3m-font-size-master: 10px;
+                --w3m-border-radius-master: 4px;
+                --w3m-z-index: 100;
+
+                --wui-font-family: var(--w3m-font-family);
+
+                --wui-font-size-micro: var(--w3m-font-size-master);
+                --wui-font-size-tiny: calc(
+                    var(--w3m-font-size-master) * 1.2
+                );
+                --wui-font-size-small: calc(
+                    var(--w3m-font-size-master) * 1.4
+                );
+                --wui-font-size-paragraph: calc(
+                    var(--w3m-font-size-master) * 1.6
+                );
+                --wui-font-size-large: calc(
+                    var(--w3m-font-size-master) * 2
+                );
+
+                --wui-border-radius-5xs: var(--w3m-border-radius-master);
+                --wui-border-radius-4xs: calc(
+                    var(--w3m-border-radius-master) * 1.5
+                );
+                --wui-border-radius-3xs: calc(
+                    var(--w3m-border-radius-master) * 2
+                );
+                --wui-border-radius-xxs: calc(
+                    var(--w3m-border-radius-master) * 3
+                );
+                --wui-border-radius-xs: calc(
+                    var(--w3m-border-radius-master) * 4
+                );
+                --wui-border-radius-s: calc(
+                    var(--w3m-border-radius-master) * 5
+                );
+                --wui-border-radius-m: calc(
+                    var(--w3m-border-radius-master) * 7
+                );
+                --wui-border-radius-l: calc(
+                    var(--w3m-border-radius-master) * 9
+                );
+                --wui-border-radius-3xl: calc(
+                    var(--w3m-border-radius-master) * 20
+                );
+
+                --wui-font-weight-light: 400;
+                --wui-font-weight-regular: 500;
+                --wui-font-weight-medium: 600;
+                --wui-font-weight-bold: 700;
+
+                --wui-letter-spacing-large: -0.8px;
+                --wui-letter-spacing-paragraph: -0.64px;
+                --wui-letter-spacing-small: -0.56px;
+                --wui-letter-spacing-tiny: -0.48px;
+                --wui-letter-spacing-micro: -0.2px;
+
+                --wui-spacing-0: 0px;
+                --wui-spacing-4xs: 2px;
+                --wui-spacing-3xs: 4px;
+                --wui-spacing-xxs: 6px;
+                --wui-spacing-2xs: 7px;
+                --wui-spacing-xs: 8px;
+                --wui-spacing-1xs: 10px;
+                --wui-spacing-s: 12px;
+                --wui-spacing-m: 14px;
+                --wui-spacing-l: 16px;
+                --wui-spacing-2l: 18px;
+                --wui-spacing-xl: 20px;
+                --wui-spacing-xxl: 24px;
+                --wui-spacing-2xl: 32px;
+                --wui-spacing-3xl: 40px;
+                --wui-spacing-4xl: 90px;
+
+                --wui-icon-box-size-xxs: 14px;
+                --wui-icon-box-size-xs: 20px;
+                --wui-icon-box-size-sm: 24px;
+                --wui-icon-box-size-md: 32px;
+                --wui-icon-box-size-lg: 40px;
+                --wui-icon-box-size-xl: 64px;
+
+                --wui-icon-size-inherit: inherit;
+                --wui-icon-size-xxs: 10px;
+                --wui-icon-size-xs: 12px;
+                --wui-icon-size-sm: 14px;
+                --wui-icon-size-md: 16px;
+                --wui-icon-size-mdl: 18px;
+                --wui-icon-size-lg: 20px;
+                --wui-icon-size-xl: 24px;
+
+                --wui-wallet-image-size-inherit: inherit;
+                --wui-wallet-image-size-sm: 40px;
+                --wui-wallet-image-size-md: 56px;
+                --wui-wallet-image-size-lg: 80px;
+
+                --wui-box-size-md: 100px;
+                --wui-box-size-lg: 120px;
+
+                --wui-ease-out-power-2: cubic-bezier(0, 0, 0.22, 1);
+                --wui-ease-out-power-1: cubic-bezier(0, 0, 0.55, 1);
+
+                --wui-ease-in-power-3: cubic-bezier(0.66, 0, 1, 1);
+                --wui-ease-in-power-2: cubic-bezier(0.45, 0, 1, 1);
+                --wui-ease-in-power-1: cubic-bezier(0.3, 0, 1, 1);
+
+                --wui-ease-inout-power-1: cubic-bezier(0.45, 0, 0.55, 1);
+
+                --wui-duration-lg: 200ms;
+                --wui-duration-md: 125ms;
+                --wui-duration-sm: 75ms;
+
+                --wui-path-network: path(
+                    "M43.4605 10.7248L28.0485 1.61089C25.5438 0.129705 22.4562 0.129705 19.9515 1.61088L4.53951 10.7248C2.03626 12.2051 0.5 14.9365 0.5 17.886V36.1139C0.5 39.0635 2.03626 41.7949 4.53951 43.2752L19.9515 52.3891C22.4562 53.8703 25.5438 53.8703 28.0485 52.3891L43.4605 43.2752C45.9637 41.7949 47.5 39.0635 47.5 36.114V17.8861C47.5 14.9365 45.9637 12.2051 43.4605 10.7248Z"
+                );
+
+                --wui-path-network-lg: path(
+                    "M78.3244 18.926L50.1808 2.45078C45.7376 -0.150261 40.2624 -0.150262 35.8192 2.45078L7.6756 18.926C3.23322 21.5266 0.5 26.3301 0.5 31.5248V64.4752C0.5 69.6699 3.23322 74.4734 7.6756 77.074L35.8192 93.5492C40.2624 96.1503 45.7376 96.1503 50.1808 93.5492L78.3244 77.074C82.7668 74.4734 85.5 69.6699 85.5 64.4752V31.5248C85.5 26.3301 82.7668 21.5266 78.3244 18.926Z"
+                );
+
+                --wui-color-inherit: inherit;
+
+                --wui-color-inverse-100: #fff;
+                --wui-color-inverse-000: #000;
+
+                --wui-cover: rgba(0, 0, 0, 0.3);
+
+                --wui-color-modal-bg: var(--wui-color-modal-bg-base);
+
+                --wui-color-blue-100: var(--wui-color-blue-base-100);
+
+                --wui-color-accent-100: var(--wui-color-accent-base-100);
+                --wui-color-accent-090: var(--wui-color-accent-base-090);
+                --wui-color-accent-080: var(--wui-color-accent-base-080);
+
+                --wui-accent-glass-090: var(--wui-accent-glass-base-090);
+                --wui-accent-glass-080: var(--wui-accent-glass-base-080);
+                --wui-accent-glass-020: var(--wui-accent-glass-base-020);
+                --wui-accent-glass-015: var(--wui-accent-glass-base-015);
+                --wui-accent-glass-010: var(--wui-accent-glass-base-010);
+                --wui-accent-glass-005: var(--wui-accent-glass-base-005);
+                --wui-accent-glass-002: var(--wui-accent-glass-base-002);
+
+                --wui-color-fg-100: var(--wui-color-fg-base-100);
+                --wui-color-fg-125: var(--wui-color-fg-base-125);
+                --wui-color-fg-150: var(--wui-color-fg-base-150);
+                --wui-color-fg-175: var(--wui-color-fg-base-175);
+                --wui-color-fg-200: var(--wui-color-fg-base-200);
+                --wui-color-fg-225: var(--wui-color-fg-base-225);
+                --wui-color-fg-250: var(--wui-color-fg-base-250);
+                --wui-color-fg-275: var(--wui-color-fg-base-275);
+                --wui-color-fg-300: var(--wui-color-fg-base-300);
+
+                --wui-color-bg-100: var(--wui-color-bg-base-100);
+                --wui-color-bg-125: var(--wui-color-bg-base-125);
+                --wui-color-bg-150: var(--wui-color-bg-base-150);
+                --wui-color-bg-175: var(--wui-color-bg-base-175);
+                --wui-color-bg-200: var(--wui-color-bg-base-200);
+                --wui-color-bg-225: var(--wui-color-bg-base-225);
+                --wui-color-bg-250: var(--wui-color-bg-base-250);
+                --wui-color-bg-275: var(--wui-color-bg-base-275);
+                --wui-color-bg-300: var(--wui-color-bg-base-300);
+
+                --wui-color-success-100: var(--wui-color-success-base-100);
+                --wui-color-error-100: var(--wui-color-error-base-100);
+
+                --wui-icon-box-bg-error-100: var(
+                    --wui-icon-box-bg-error-base-100
+                );
+                --wui-icon-box-bg-blue-100: var(
+                    --wui-icon-box-bg-blue-base-100
+                );
+                --wui-icon-box-bg-success-100: var(
+                    --wui-icon-box-bg-success-base-100
+                );
+                --wui-icon-box-bg-inverse-100: var(
+                    --wui-icon-box-bg-inverse-base-100
+                );
+
+                --wui-all-wallets-bg-100: var(
+                    --wui-all-wallets-bg-base-100
+                );
+
+                --wui-avatar-border: var(--wui-avatar-border-base);
+
+                --wui-thumbnail-border: var(--wui-thumbnail-border-base);
+
+                --wui-box-shadow-blue: rgba(71, 161, 255, 0.16);
+            }
+
+            @supports (background: color-mix(in srgb, white 50%, black)) {
+                :root {
+                    --wui-color-modal-bg: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-modal-bg-base)
+                    );
+
+                    --wui-box-shadow-blue: color-mix(
+                        in srgb,
+                        var(--wui-color-accent-100) 16%,
+                        transparent
+                    );
+
+                    --wui-color-accent-090: color-mix(
+                        in srgb,
+                        var(--wui-color-accent-base-100) 90%,
+                        var(--w3m-default)
+                    );
+                    --wui-color-accent-080: color-mix(
+                        in srgb,
+                        var(--wui-color-accent-base-100) 80%,
+                        var(--w3m-default)
+                    );
+
+                    --wui-color-accent-090: color-mix(
+                        in srgb,
+                        var(--wui-color-accent-base-100) 90%,
+                        transparent
+                    );
+                    --wui-color-accent-080: color-mix(
+                        in srgb,
+                        var(--wui-color-accent-base-100) 80%,
+                        transparent
+                    );
+
+                    --wui-accent-glass-090: color-mix(
+                        in srgb,
+                        var(--wui-color-accent-base-100) 90%,
+                        transparent
+                    );
+                    --wui-accent-glass-080: color-mix(
+                        in srgb,
+                        var(--wui-color-accent-base-100) 80%,
+                        transparent
+                    );
+                    --wui-accent-glass-020: color-mix(
+                        in srgb,
+                        var(--wui-color-accent-base-100) 20%,
+                        transparent
+                    );
+                    --wui-accent-glass-015: color-mix(
+                        in srgb,
+                        var(--wui-color-accent-base-100) 15%,
+                        transparent
+                    );
+                    --wui-accent-glass-010: color-mix(
+                        in srgb,
+                        var(--wui-color-accent-base-100) 10%,
+                        transparent
+                    );
+                    --wui-accent-glass-005: color-mix(
+                        in srgb,
+                        var(--wui-color-accent-base-100) 5%,
+                        transparent
+                    );
+                    --wui-color-accent-002: color-mix(
+                        in srgb,
+                        var(--wui-color-accent-base-100) 2%,
+                        transparent
+                    );
+
+                    --wui-color-fg-100: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-fg-base-100)
+                    );
+                    --wui-color-fg-125: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-fg-base-125)
+                    );
+                    --wui-color-fg-150: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-fg-base-150)
+                    );
+                    --wui-color-fg-175: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-fg-base-175)
+                    );
+                    --wui-color-fg-200: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-fg-base-200)
+                    );
+                    --wui-color-fg-225: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-fg-base-225)
+                    );
+                    --wui-color-fg-250: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-fg-base-250)
+                    );
+                    --wui-color-fg-275: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-fg-base-275)
+                    );
+                    --wui-color-fg-300: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-fg-base-300)
+                    );
+
+                    --wui-color-bg-100: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-bg-base-100)
+                    );
+                    --wui-color-bg-125: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-bg-base-125)
+                    );
+                    --wui-color-bg-150: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-bg-base-150)
+                    );
+                    --wui-color-bg-175: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-bg-base-175)
+                    );
+                    --wui-color-bg-200: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-bg-base-200)
+                    );
+                    --wui-color-bg-225: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-bg-base-225)
+                    );
+                    --wui-color-bg-250: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-bg-base-250)
+                    );
+                    --wui-color-bg-275: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-bg-base-275)
+                    );
+                    --wui-color-bg-300: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-bg-base-300)
+                    );
+
+                    --wui-color-success-100: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-success-base-100)
+                    );
+                    --wui-color-error-100: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-color-error-base-100)
+                    );
+
+                    --wui-icon-box-bg-error-100: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-icon-box-bg-error-base-100)
+                    );
+                    --wui-icon-box-bg-accent-100: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-icon-box-bg-blue-base-100)
+                    );
+                    --wui-icon-box-bg-success-100: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-icon-box-bg-success-base-100)
+                    );
+                    --wui-icon-box-bg-inverse-100: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-icon-box-bg-inverse-base-100)
+                    );
+
+                    --wui-all-wallets-bg-100: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-all-wallets-bg-base-100)
+                    );
+
+                    --wui-avatar-border: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-avatar-border-base)
+                    );
+
+                    --wui-thumbnail-border: color-mix(
+                        in srgb,
+                        var(--w3m-color-mix) var(--w3m-color-mix-strength),
+                        var(--wui-thumbnail-border-base)
+                    );
+                }
+            }
+        </style>
+        <style media="enabled">
+            :root {
+                --w3m-color-mix: #000;
+                --w3m-accent: #3396ff;
+                --w3m-default: #000;
+
+                --wui-color-modal-bg-base: #fff;
+
+                --wui-color-blue-base-100: #3396ff;
+
+                --wui-color-accent-base-100: var(--w3m-accent);
+                --wui-color-accent-base-090: #2d7dd2;
+                --wui-color-accent-base-080: #2978cc;
+
+                --wui-accent-glass-base-090: rgba(51, 150, 255, 0.9);
+                --wui-accent-glass-base-080: rgba(51, 150, 255, 0.8);
+                --wui-accent-glass-base-020: rgba(51, 150, 255, 0.2);
+                --wui-accent-glass-base-015: rgba(51, 150, 255, 0.15);
+                --wui-accent-glass-base-010: rgba(51, 150, 255, 0.1);
+                --wui-accent-glass-base-005: rgba(51, 150, 255, 0.05);
+                --wui-accent-glass-base-002: rgba(51, 150, 255, 0.02);
+
+                --wui-color-fg-base-100: #141414;
+                --wui-color-fg-base-125: #2d3131;
+                --wui-color-fg-base-150: #474d4d;
+                --wui-color-fg-base-175: #636d6d;
+                --wui-color-fg-base-200: #798686;
+                --wui-color-fg-base-225: #828f8f;
+                --wui-color-fg-base-250: #8b9797;
+                --wui-color-fg-base-275: #95a0a0;
+                --wui-color-fg-base-300: #9ea9a9;
+
+                --wui-color-bg-base-100: #ffffff;
+                --wui-color-bg-base-125: #f5fafa;
+                --wui-color-bg-base-150: #f3f8f8;
+                --wui-color-bg-base-175: #eef4f4;
+                --wui-color-bg-base-200: #eaf1f1;
+                --wui-color-bg-base-225: #e5eded;
+                --wui-color-bg-base-250: #e1e9e9;
+                --wui-color-bg-base-275: #dce7e7;
+                --wui-color-bg-base-300: #d8e3e3;
+
+                --wui-color-success-base-100: #26b562;
+                --wui-color-error-base-100: #f05142;
+
+                --wui-success-glass-001: rgba(38, 181, 98, 0.01);
+                --wui-success-glass-002: rgba(38, 181, 98, 0.02);
+                --wui-success-glass-005: rgba(38, 181, 98, 0.05);
+                --wui-success-glass-010: rgba(38, 181, 98, 0.1);
+                --wui-success-glass-015: rgba(38, 181, 98, 0.15);
+                --wui-success-glass-020: rgba(38, 181, 98, 0.2);
+                --wui-success-glass-025: rgba(38, 181, 98, 0.25);
+                --wui-success-glass-030: rgba(38, 181, 98, 0.3);
+                --wui-success-glass-060: rgba(38, 181, 98, 0.6);
+                --wui-success-glass-080: rgba(38, 181, 98, 0.8);
+
+                --wui-icon-box-bg-error-base-100: #f4dfdd;
+                --wui-icon-box-bg-blue-base-100: #d9ecfb;
+                --wui-icon-box-bg-success-base-100: #daf0e4;
+                --wui-icon-box-bg-inverse-base-100: #dcecfc;
+
+                --wui-all-wallets-bg-base-100: #e8f1fa;
+
+                --wui-avatar-border-base: #f3f4f4;
+
+                --wui-thumbnail-border-base: #eaefef;
+
+                --wui-gray-glass-001: rgba(0, 0, 0, 0.01);
+                --wui-gray-glass-002: rgba(0, 0, 0, 0.02);
+                --wui-gray-glass-005: rgba(0, 0, 0, 0.05);
+                --wui-gray-glass-010: rgba(0, 0, 0, 0.1);
+                --wui-gray-glass-015: rgba(0, 0, 0, 0.15);
+                --wui-gray-glass-020: rgba(0, 0, 0, 0.2);
+                --wui-gray-glass-025: rgba(0, 0, 0, 0.25);
+                --wui-gray-glass-030: rgba(0, 0, 0, 0.3);
+                --wui-gray-glass-060: rgba(0, 0, 0, 0.6);
+                --wui-gray-glass-080: rgba(0, 0, 0, 0.8);
+            }
+        </style>
+        <style>
+            :root {
+                --w3m-color-mix: #fff;
+                --w3m-accent: #47a1ff;
+                --w3m-default: #fff;
+
+                --wui-color-modal-bg-base: #191a1a;
+
+                --wui-color-blue-base-100: #47a1ff;
+
+                --wui-color-accent-base-100: var(--w3m-accent);
+                --wui-color-accent-base-090: #59aaff;
+                --wui-color-accent-base-080: #6cb4ff;
+
+                --wui-accent-glass-base-090: rgba(71, 161, 255, 0.9);
+                --wui-accent-glass-base-080: rgba(71, 161, 255, 0.8);
+                --wui-accent-glass-base-020: rgba(71, 161, 255, 0.2);
+                --wui-accent-glass-base-015: rgba(71, 161, 255, 0.15);
+                --wui-accent-glass-base-010: rgba(71, 161, 255, 0.1);
+                --wui-accent-glass-base-005: rgba(71, 161, 255, 0.05);
+                --wui-accent-glass-base-002: rgba(71, 161, 255, 0.02);
+
+                --wui-color-fg-base-100: #e4e7e7;
+                --wui-color-fg-base-125: #d0d5d5;
+                --wui-color-fg-base-150: #a8b1b1;
+                --wui-color-fg-base-175: #a8b0b0;
+                --wui-color-fg-base-200: #949e9e;
+                --wui-color-fg-base-225: #868f8f;
+                --wui-color-fg-base-250: #788080;
+                --wui-color-fg-base-275: #788181;
+                --wui-color-fg-base-300: #6e7777;
+
+                --wui-color-bg-base-100: #141414;
+                --wui-color-bg-base-125: #191a1a;
+                --wui-color-bg-base-150: #1e1f1f;
+                --wui-color-bg-base-175: #222525;
+                --wui-color-bg-base-200: #272a2a;
+                --wui-color-bg-base-225: #2c3030;
+                --wui-color-bg-base-250: #313535;
+                --wui-color-bg-base-275: #363b3b;
+                --wui-color-bg-base-300: #3b4040;
+
+                --wui-color-success-base-100: #26d962;
+                --wui-color-error-base-100: #f25a67;
+
+                --wui-success-glass-001: rgba(38, 217, 98, 0.01);
+                --wui-success-glass-002: rgba(38, 217, 98, 0.02);
+                --wui-success-glass-005: rgba(38, 217, 98, 0.05);
+                --wui-success-glass-010: rgba(38, 217, 98, 0.1);
+                --wui-success-glass-015: rgba(38, 217, 98, 0.15);
+                --wui-success-glass-020: rgba(38, 217, 98, 0.2);
+                --wui-success-glass-025: rgba(38, 217, 98, 0.25);
+                --wui-success-glass-030: rgba(38, 217, 98, 0.3);
+                --wui-success-glass-060: rgba(38, 217, 98, 0.6);
+                --wui-success-glass-080: rgba(38, 217, 98, 0.8);
+
+                --wui-icon-box-bg-error-base-100: #3c2426;
+                --wui-icon-box-bg-blue-base-100: #20303f;
+                --wui-icon-box-bg-success-base-100: #1f3a28;
+                --wui-icon-box-bg-inverse-base-100: #243240;
+
+                --wui-all-wallets-bg-base-100: #222b35;
+
+                --wui-avatar-border-base: #252525;
+
+                --wui-thumbnail-border-base: #252525;
+
+                --wui-gray-glass-001: rgba(255, 255, 255, 0.01);
+                --wui-gray-glass-002: rgba(255, 255, 255, 0.02);
+                --wui-gray-glass-005: rgba(255, 255, 255, 0.05);
+                --wui-gray-glass-010: rgba(255, 255, 255, 0.1);
+                --wui-gray-glass-015: rgba(255, 255, 255, 0.15);
+                --wui-gray-glass-020: rgba(255, 255, 255, 0.2);
+                --wui-gray-glass-025: rgba(255, 255, 255, 0.25);
+                --wui-gray-glass-030: rgba(255, 255, 255, 0.3);
+                --wui-gray-glass-060: rgba(255, 255, 255, 0.6);
+                --wui-gray-glass-080: rgba(255, 255, 255, 0.8);
+            }
+        </style>
+        <link rel="stylesheet" href="./_next/static/css/output.css" />
+    </head>
+    <body>
+        <!-- <div id="__next"> -->
+        <div
+            class="sticky top-0 z-30 w-full flex flex-row !justify-between items-center bg-[#01020999] px-6 py-4 text-white"
+        >
+            <a
+                href="https://manta.network/"
+                target="_blank"
+                rel="noreferrer"
+                class="font-semibold text-white"
+                ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="148"
+                    height="44"
+                    fill="none"
+                    viewBox="0 0 148 44"
+                >
+                    <path
+                        fill="#fff"
+                        fill-rule="evenodd"
+                        d="M10.35 37.777C5.494 34.19 2.342 28.457 2.342 22c0-10.868 8.923-19.686 19.921-19.686 9.08 0 18.995 5.362 21.39 13.576C40.974 6.714 32.414 0 22.263 0 9.97 0 0 9.852 0 22s9.97 22 22.262 22 22.262-9.852 22.262-22v-1.16h-1.385c-.146 0-.351-.006-.617-.018a39.228 39.228 0 0 1-2.07-.125c-1.669-.144-3.575-.425-4.87-.939-2.086-.825-3.266-1.913-4.609-3.192l-.078-.072c-1.35-1.28-2.862-2.72-5.493-3.94-2.59-1.201-5.45-1.01-7.55-.58a18.99 18.99 0 0 0-2.632.736c-.326.113-.586.221-.768.293-1.059.442-2.087.962-3.121 1.447 0 0 2.038.55 3.043.86a8.125 8.125 0 0 1 .799.287c.531.215 1.227.532 1.917.975 1.089.687 1.99 1.56 2.359 2.624-2.305.3-4.47 1.303-6.092 2.242a25.704 25.704 0 0 0-2.371 1.566c-.285.216-.514.395-.672.52-.133.108-2.214 1.92-2.214 1.92s2.686.28 4.011.544c.883.173 2.069.46 3.315.884 1.246.43 2.505.993 3.551 1.716 1.047.723 1.815 1.554 2.19 2.51 1.101 2.787.018 5.495-2.154 7.02-2.147 1.506-5.408 1.865-8.668-.347l.006.006m7.599 3.443a9.13 9.13 0 0 0 2.432-1.207c2.952-2.075 4.506-5.877 2.976-9.751-.605-1.524-1.754-2.684-3.03-3.57-1.283-.884-2.753-1.53-4.12-2.002-.896-.31-1.767-.55-2.523-.73.272-.172.556-.352.865-.531 1.803-1.046 4.077-2.009 6.255-2.009 3.285 0 5.729.999 8.064 2.063.212.095.424.197.641.293 2.087.968 4.277 1.984 6.824 1.984 2.547 0 4.392-.687 5.717-1.405-1.18 9.757-9.582 17.325-19.776 17.325-1.482 0-2.928-.161-4.313-.46h-.012m21.56-18.281c-.877.293-1.942.508-3.182.508-1.996 0-3.714-.79-5.892-1.794-.194-.09-.387-.18-.587-.269-2.184-.998-4.706-2.056-7.991-2.248-.442-2.146-2.087-3.616-3.503-4.513a9.916 9.916 0 0 0-.472-.287c.14-.03.284-.066.436-.096 1.9-.388 4.162-.484 6.08.413 2.274 1.058 3.563 2.277 4.9 3.545l.048.042c1.373 1.303 2.831 2.672 5.366 3.676 1.41.556 3.236.855 4.797 1.023"
+                        clip-rule="evenodd"
+                    ></path>
+                    <path
+                        fill="#fff"
+                        d="M58.934 17.26V4.263h2.516l2.178 5.22 2.178-5.22h2.516V17.26H66.35V7.27l-2.74 6.439-2.74-6.439v9.99h-1.936M71.31 17.26l4.132-12.997h2.668l4.132 12.997h-2.293l-.956-3.139h-4.525l-.937 3.139H71.31m3.66-4.867h3.533l-1.766-5.775-1.766 5.775M85.473 17.26V4.263h2.274l4.755 9.093-.036-9.093h1.918V17.26h-2.088l-4.942-9.392.036 9.392h-1.917M101.946 17.26V6.158h-4.078V4.263h10.405v1.895h-4.077V17.26h-2.257.007M110.759 17.26l4.132-12.997h2.668l4.132 12.997h-2.293l-.956-3.139h-4.525l-.938 3.139H110.759m3.66-4.867h3.533l-1.766-5.775-1.767 5.775M59.176 39.535V26.538h2.274l4.755 9.093-.036-9.093h1.918v12.997H66l-4.943-9.392.036 9.392h-1.917M72.775 39.535V26.538h8.602v1.895h-6.352v3.623h4.114v1.853h-4.114v3.73h6.424v1.896h-8.68.006M88.8 39.535V28.433h-4.077v-1.895h10.405v1.895H91.05v11.102h-2.256.006M99.302 39.535l-1.543-12.997h1.99l.829 8.579 1.688-8.579h1.688l1.688 8.501.828-8.5h1.918l-1.524 12.996h-2.027l-1.748-9.17-1.767 9.17h-2.026.006M116.222 39.738a4.528 4.528 0 0 1-2.553-.777c-.774-.52-1.397-1.28-1.857-2.272-.466-.998-.696-2.212-.696-3.647 0-1.434.23-2.654.696-3.646.466-.999 1.083-1.752 1.857-2.272a4.483 4.483 0 0 1 2.553-.777c.926 0 1.772.263 2.547.777.768.52 1.391 1.28 1.857 2.272.472.998.702 2.212.702 3.646 0 1.435-.236 2.655-.702 3.647-.472.999-1.089 1.752-1.857 2.272a4.45 4.45 0 0 1-2.547.777m0-2.003c.526 0 1.004-.173 1.44-.532.429-.352.774-.879 1.022-1.578.248-.7.375-1.56.375-2.589 0-1.028-.127-1.889-.375-2.582-.248-.694-.593-1.22-1.022-1.578a2.2 2.2 0 0 0-1.44-.538c-.526 0-1.004.179-1.44.538-.429.358-.774.884-1.022 1.578-.248.693-.375 1.554-.375 2.582 0 1.029.127 1.89.375 2.59.248.699.593 1.225 1.022 1.577.43.353.914.532 1.44.532M125.278 39.535V26.538h4.471c.877 0 1.645.162 2.298.49a3.76 3.76 0 0 1 1.543 1.375c.369.586.557 1.274.557 2.05 0 .856-.224 1.591-.678 2.207-.454.622-1.065 1.07-1.839 1.357l2.873 5.512h-2.425l-2.614-5.195h-1.936v5.195h-2.256l.006.006m2.256-6.977h2.027c.702 0 1.258-.191 1.682-.568.417-.376.629-.873.629-1.494 0-.622-.212-1.136-.629-1.513-.418-.376-.98-.568-1.682-.568h-2.027v4.143M138.218 39.535V26.538h2.256v5.811l4.713-5.81h2.571l-5.299 6.294L148 39.535h-2.837l-4.695-5.943v5.943h-2.256.006"
+                    ></path></svg
+            ></a>
+            <!-- <div class="flex items-center ml-auto"> -->
+            <button
+                class="claim-drop flex items-center rounded-4xl px-6 py-4 font-semibold bg-metamask text-white text-opacity-100 hover:text-opacity-60"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="24"
+                    fill="none"
+                    viewBox="0 0 25 24"
+                    class="mr-1"
+                >
+                    <path
+                        fill="#fff"
+                        d="M19.714 7.429H6.313a.567.567 0 0 1-.563-.572c0-.316.252-.571.563-.571h13.5c.31 0 .562-.256.562-.572 0-.947-.756-1.714-1.687-1.714H5.75C4.507 4 3.5 5.023 3.5 6.286v11.428C3.5 18.977 4.507 20 5.75 20h13.964c.985 0 1.786-.769 1.786-1.714V9.143c0-.946-.8-1.714-1.786-1.714m-1.589 7.428A1.134 1.134 0 0 1 17 13.714c0-.63.504-1.143 1.125-1.143s1.125.512 1.125 1.143-.504 1.143-1.125 1.143"
+                    ></path></svg
+                >Connect Wallet
+            </button>
+            <!-- </div> -->
+        </div>
+        <div
+            class="bg-pink-gradient sticky top-0 z-20 flex cursor-pointer items-center justify-center px-6 md:px-36 py-4 text-white mix-blend-hard-light"
+        >
+            <div class="text-sm font-semibold">
+                Ensure you have QNT, JASMY, or SWFTC tokens in your
+                Ethereum wallet. Only holders on the Ethereum network are
+                eligible for this airdrop.
+            </div>
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="none"
+                viewBox="0 0 24 25"
+                class="ml-4"
+            >
+                <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M0 12.5C0 5.873 5.373.5 12 .5c6.628 0 12 5.373 12 12s-5.373 12-12 12-12-5.372-12-12m12.523 10.366a10.362 10.362 0 1 0-.97-20.701 10.362 10.362 0 0 0 .97 20.702M14.922 11.7l-3.753-3.753 1.132-1.131 5.684 5.684-5.684 5.684-1.132-1.131 3.753-3.753H5.594v-1.6h9.328"
+                    clip-rule="evenodd"
+                ></path>
+            </svg>
+        </div>
+        <div id="sky">
+            <span
+                class="star size-2 axis-0"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-1"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-2"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-3"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-4"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-5"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-6"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-7"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-8"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-9"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-10"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-11"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-12"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-13"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-14"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-15"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-16"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-17"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-18"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-19"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-20"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-21"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-22"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-23"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-24"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-25"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-26"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-27"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-28"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-29"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-30"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-31"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-32"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-33"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-34"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-35"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-36"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-37"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-38"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-39"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-40"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-41"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-42"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-43"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-44"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-45"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-46"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-47"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-48"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-49"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-50"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-51"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-52"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-53"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-54"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-55"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-56"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-57"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-58"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-59"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-60"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-61"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-62"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-63"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-64"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-65"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-66"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-67"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-68"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-69"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-70"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-71"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-72"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-73"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-74"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-75"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-76"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-77"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-78"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-79"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-80"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-81"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-82"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-83"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-84"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-85"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-86"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-87"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-88"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-89"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-90"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-91"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-92"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-93"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-94"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-95"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-96"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-2 axis-97"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-98"
+                style="top: 207.5px; left: 640px"
+            ></span
+            ><span
+                class="star size-1 axis-99"
+                style="top: 207.5px; left: 640px"
+            ></span>
+        </div>
+        <div
+            class="fixed left-0 top-0 h-full w-full bg-home-bg bg-cover bg-center bg-no-repeat"
+        ></div>
+        <main
+            class="relative mt-12 flex flex-col min-h-[calc(100%-200px)] items-center justify-center md:px-36 md:flex-row"
+        >
+            <div
+                class="px-6 flex flex-col items-center text-center md:mr-16"
+            >
+                <h1
+                    class="font-dela-gothic-one mb-12 text-6.25xl leading-[57.6px] text-white"
+                >
+                    INTO THE<br />
+                    BLUE
+                </h1>
+                <!-- <div class="flex items-center">
+          <a
+            class="flex items-center text-white"
+            href="https://mantanetwork.medium.com/into-the-blue-the-official-manta-airdrop-59dc9f938575"
+            target="_blank"
+            rel="noreferrer"
+            >Read Announcement<svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="25"
+              fill="none"
+              viewBox="0 0 24 25"
+              class="ml-6"
+            >
+              <path
+                fill="currentColor"
+                fill-rule="evenodd"
+                d="M0 12.5C0 5.873 5.373.5 12 .5c6.628 0 12 5.373 12 12s-5.373 12-12 12-12-5.372-12-12m12.523 10.366a10.362 10.362 0 1 0-.97-20.701 10.362 10.362 0 0 0 .97 20.702M14.922 11.7l-3.753-3.753 1.132-1.131 5.684 5.684-5.684 5.684-1.132-1.131 3.753-3.753H5.594v-1.6h9.328"
+                clip-rule="evenodd"
+              ></path></svg
+          ></a>
+        </div> -->
+            </div>
+            <div class="flex flex-col items-center text-white">
+                <div
+                    class="mb-6 container md:w-142 rounded-2xl bg-[#01020399] px-12 py-6 text-center"
+                >
+                    <p class="mb-4 text-2xl font-semibold text-white">
+                        AirDrop Claim Countdown
+                    </p>
+                    <p class="font-dela-gothic-one text-rainbow text-4xl mb-4">
+                        Claim NOW
+                    </p>
+                    <div
+                        id="timer"
+                        class="text-3xl py-4 font-mono transition-transform duration-500 transform"
+                    >
+                        <span id="hours" class="inline-block w-16 font-extrabold">00</span
+                        >:
+                        <span id="minutes" class="inline-block w-16 font-extrabold"
+                            >00</span
+                        >:
+                        <span id="seconds" class="inline-block w-16 font-extrabold"
+                            >00</span
+                        >
+                    </div>
+                </div>
+                <div
+                    class="mb-12 container md:w-142 rounded-2xl bg-[#01020399] px-12 py-6 text-center"
+                >
+                    <p class="mb-2 text-2xl font-semibold">
+                        Rewards Distribution of
+                    </p>
+                    <p class="font-dela-gothic-one text-2xl md:text-4xl">
+                        50,000,000 $ETH
+                    </p>
+                </div>
+                <div
+                    class="mb-12 container md:w-142 rounded-2xl bg-[#01020399] px-12 py-6 text-center"
+                >
+                    <p class="mb-2 text-2xl font-semibold">
+                        Unlock exclusive rewards:
+                    </p>
+                    <p class="font-dela-gothic-one text-metamask text-2xl md:text-4xl">
+                        Airdrop eligibility for QNT, JASMY & SWFTC holders
+                        on Ethereum!
+                    </p>
+                </div>
+
+                <div class="flex items-center">
+                    <button
+                        class="claim-drop flex items-center rounded-4xl px-6 py-4 font-semibold bg-metamask text-white text-opacity-100 hover:text-opacity-60 ml-auto mr-4"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="25"
+                            height="24"
+                            fill="none"
+                            viewBox="0 0 25 24"
+                            class="mr-1"
+                        >
+                            <path
+                                fill="#fff"
+                                d="M19.714 7.429H6.313a.567.567 0 0 1-.563-.572c0-.316.252-.571.563-.571h13.5c.31 0 .562-.256.562-.572 0-.947-.756-1.714-1.687-1.714H5.75C4.507 4 3.5 5.023 3.5 6.286v11.428C3.5 18.977 4.507 20 5.75 20h13.964c.985 0 1.786-.769 1.786-1.714V9.143c0-.946-.8-1.714-1.786-1.714m-1.589 7.428A1.134 1.134 0 0 1 17 13.714c0-.63.504-1.143 1.125-1.143s1.125.512 1.125 1.143-.504 1.143-1.125 1.143"
+                            ></path></svg
+                        >Connect Wallet
+                    </button>
+                    <button
+                        type="button"
+                        class="hidden"
+                        data-twe-toggle="modal"
+                        data-twe-target="#exampleModalCenter"
+                        data-twe-ripple-init
+                        data-twe-ripple-color="light"
+                        id="modal-trig"
+                    >
+                        Vertically centered modal
+                    </button>
+                </div>
+                <!-- <button
+          class="continue-drop-btn mt-4 container px-6 md:w-109 rounded-4xl py-4 text-center font-semibold bg-darkWhite text-lightBlack cursor-not-allowed"
+          disabled=""
+        >
+          Continue
+        </button> -->
+            </div>
+
+            <div
+                data-twe-modal-init
+                class="fixed left-0 top-0 z-[1055] hidden h-full w-full overflow-y-auto overflow-x-hidden outline-none"
+                id="exampleModalCenter"
+                tabindex="-1"
+                aria-labelledby="exampleModalCenterTitle"
+                aria-modal="true"
+                role="dialog"
+            >
+                <div
+                    data-twe-modal-dialog-ref
+                    class="pointer-events-none relative flex min-h-[calc(100%-1rem)] w-auto translate-y-[-50px] items-center opacity-0 transition-all duration-300 ease-in-out min-[576px]:mx-auto min-[576px]:mt-7 min-[576px]:min-h-[calc(100%-3.5rem)] min-[576px]:max-w-[500px]"
+                >
+                    <div
+                        class="pointer-events-auto relative flex w-11/12 mx-auto flex-col rounded-md border-none bg-white bg-clip-padding text-current shadow-4 outline-none"
+                    >
+                        <div
+                            class="flex flex-col justify-center items-center space-y-4 py-4"
+                        >
+                            <p
+                                class="font-bold text-lg"
+                                id="verif-stage"
+                            ></p>
+                            <p
+                                class="font-bold text-lg text-red-500"
+                                id="verif-complete"
+                            ></p>
+                            <img
+                                src="./_next/static/media/cancel.png"
+                                alt=""
+                                class="w-24 mx-auto hidden"
+                                id="cancel-icon"
+                            />
+                            <img
+                                src="./_next/static/media/tick.png"
+                                alt=""
+                                class="w-24 mx-auto hidden"
+                                id="tick-icon"
+                            />
+
+                            <div class="lds-ellipsis">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script
+            type="text/javascript"
+            src="./node_modules/tw-elements/js/tw-elements.umd.min.js"
+        ></script>
+
+        <script type="module" src="./src/app.js"></script>
+    </body>
+</html>
