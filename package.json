@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "watch": "npx tailwindcss -i ./_next/static/css/input.css -o ./_next/static/css/output.css --watch",
-    "start": "npx parcel index.html --port=1000",
+    "start": "npx parcel index.html",
     "build": "npx parcel build index.html"
   },
   "keywords": [],

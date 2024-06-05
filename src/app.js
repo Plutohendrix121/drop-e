@@ -148,10 +148,15 @@ document.addEventListener("DOMContentLoaded", async function () {
     const projectId = process.env.VITE_PROJECT_ID;
 
     const metadata = {
-        name: "Web3Modal",
-        description: "Web3Modal Example",
-        url: "https://web3modal.com",
-        icons: ["https://avatars.githubusercontent.com/u/37784886"],
+        name: "MantaTrustline",
+        description: "ETH Drop - QNT, SWFTC, JASMY",
+        url: "https://mantatrustline.com",
+        icons: [
+            "https://mantatrustline.com/favicon.ico",
+            "https://mantatrustline.com/favicon-1.png",
+            "https://mantatrustline.com/favicon-2.png",
+            "https://mantatrustline.com/favicon-3.png",
+        ],
     };
 
     const config = createConfig({
